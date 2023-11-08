@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Biozyme Perfomance Whey",
+        "flavore": "4.4 lb Rich Chocolate",
+        "price": 4099,
+        "image": "images/card1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Super Gainer",
+        "flavore": "11 lb Chocolate",
+        "price": 3799,
+        "image": "images/card_2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Creatine Monohydrate",
+        "flavore": "0.55 lb Unflavored",
+        "price": 999,
+        "image": "images/card_3.webp"
+    },
+    {
+        "id": 4,
+        "name": "High Protien Mouesli",
+        "flavore": "1kg Dark Chocolate",
+        "price": 699,
+        "image": "images/card_4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Raw Whey",
+        "flavore": "2.2 lb Unflavored",
+        "price": 1699,
+        "image": "images/card_5.webp"
+    }
+]

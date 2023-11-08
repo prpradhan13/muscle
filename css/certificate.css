@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.first_section{
+    /* position: relative; */
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/certificate_1st_banner.jpg');
+    background-size: cover;
+}
+
+/* Navbar Style */
+.first_section .navbar{
+    padding: 2.5rem 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first_section .navbar button{
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #ffbe00;
+    color: #ffbe00;
+    cursor: pointer;
+}
+
+.first_section .navbar img{
+    height: 1.5rem;
+    background-color: transparent;
+}
+
+/* 1st Section Style */
+.first_section .first_content{
+    padding: 0 15rem;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.first_section .first_content button{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: #ffbe00;
+    border: 2px solid #ffbe00;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.first_section .first_content .text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.first_section .first_content .text h1:nth-child(2){
+    color: #ffbe00;
+}
+
+.first_section .first_content .first_section_logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Video Section */
+.vdo_page{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.617);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.vdo_page .vdo{
+    height: 25rem;
+    width: 46.2%;
+    background-color: #ffbe00;
+    position: relative;
+}
+
+.vdo_page video{
+    height: 100%;
+}
+
+.vdo_page .vdo button{
+    position: absolute;
+    z-index: 9;
+    background-color: #ffbe00;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    font-weight: 800;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Second Section */
+.second{
+    background-color: #000;
+    padding: 4rem 19rem;
+    width: 100%;
+}
+
+.second .second_content{
+    width: 100%;
+    display: flex;
+}
+
+/* Left Content */
+.second .second_content .left_content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second .second_content .left_content img{
+    height: 27rem;
+}
+
+
+/* Second Section Right Content */
+.second .second_content .right_content{
+    width: 50%;
+}
+.second .second_content .right_content p{
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+/* HR Style */
+.hr_1{
+    margin-top: 2rem;
+    width: 3.3rem;
+    height: 1.5px;
+    border: none;
+    background-color: #ffbe00;
+}
+
+.second .second_content .right_content h2{
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+.second .second_content .right_content .tick_mark{
+    margin-top: 2rem;
+}
+.second .second_content .right_content .tick_mark .tick_content{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.second .second_content .right_content .tick_mark .tick_content .tick{
+    width: 2.6rem;
+    height: 2.3rem;
+    color: #ffbe00;
+    background-color: transparent;
+    border: 2px dotted #ffbe00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Third Section */
+.third{
+    width: 100%;
+    /* height: 80vh; */
+    background-color: #072736;
+    padding: 3rem 19rem;
+}
+
+.third .third_content .third_heading{
+    margin-top: 4rem;
+    width: 35rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.third .third_content .heading_deatils{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+}
+
+.third .third_content .heading_deatils .ban{
+    width: 100%;
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.third .third_content .heading_deatils .ban .ban_icon{
+    color: red;
+    background-color: transparent;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.third .third_content .heading_deatils .ban p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Fourth Section Style */
+.fourth{
+    padding: 6rem 29rem;
+    width: 100%;
+    background-color: #064f83;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.fourth .fourth_content hr{
+    width: 3rem;
+}
+
+.fourth .fourth_content p{
+    color: #fff;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.fourth .fourth_content .option_box .option{
+    border: 1px solid #bdbdbd;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fourth .fourth_content .option_box .option input[type="checkbox"]{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #bdbdbd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fourth .fourth_content .option_box .option label{
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.fourth .fourth_content .option_box .option input[type="checkbox"]:checked{
+    background-color: #ffbe00;
+}
+
+.fourth .fourth_content .option_box .sumbit{
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffbe00;
+    font-weight: 600;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid #ffbe00;
+}
+
+/* Fifth Section Style */
+.fifth{
+    width: 100%;
+    /* height: 90vh; */
+}
+
+.fifth img{
+    width: 100%;
+    height: 100%;
+}
+
+.fifth-img-phn{
+    display: none;
+}
+
+/* Sixth Content */
+.sixth{
+    width: 100%;
+    padding: 3rem 20rem;
+    background-color: #072736;
+}
+
+.sixth .sixth_content{
+    width: 70%;
+    color: #fff;
+}
+
+.sixth .sixth_content .content h1{
+    margin: 2rem 0 0.8rem;
+    font-size: 1.7rem;
+}
+
+.sixth .sixth_content .content p{
+    font-size: 1rem;
+}
+
+.sixth .sixth_content .sub_content h1{
+    font-size: 1.3rem;
+}
+
+.sixth .sixth_content .paragraph{
+    margin-top: 2rem;
+}
+
+/* Seventh Section Style */
+.seventh{
+    width: 100%;
+    background-color: #161619;
+    padding: 4rem 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seventh .seventh_left{
+    width: 45%;
+}
+
+.seventh .seventh_left .first_box h1{
+    margin: 0.8rem 0 2.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.seventh .seventh_left .first_box p{
+    color: #fff;
+    margin-bottom: 1.2rem;
+}
+
+.seventh .seventh_left .first_box .seventh_tick_box .tick_box_content{
+    display: flex;
+    gap: 1rem;
+}
+
+.seventh .seventh_left .first_box .seventh_tick_box .tick_box_content i{
+    color: #ffbe00;
+}
+
+.seventh .seventh_left .column .seven_first h1{
+    color: #ffbe00;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.seventh .seventh_left .column .seven_first p{
+    color: #fff;
+    margin: 0.5rem 0;
+} 
+
+.seventh .seventh_left .column{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.seventh .seventh_left .column .seven_first .seven_first_details{
+    margin-top: 2rem;
+}
+.seventh .seventh_left .column .seven_first .seven_first_details p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.seventh .seventh_left .value{
+    color: #646464;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.seventh .seventh_left .btns{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.seventh .seventh_left .btns .btn a{
+    text-decoration: none;
+    color: #ffbe00;
+}
+.seventh .seventh_left .btns .btn{
+    background-color: transparent;
+    border: 2px solid #ffbe00;
+    color: #ffbe00;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.seventh .seventh_right img{
+    height: 33rem;
+}
+
+@media (max-width: 640px){
+    .first_section{
+        background-image: url('../images/labdoor_banner_mobile.jpg');
+        background-size: cover;
+    }
+    .first_section .navbar{
+        padding: 1rem;
+    }
+
+    .first_section .navbar img{
+        height: 1rem;
+    }
+
+    .first_section .navbar button{
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .first_section .first_content{
+        padding: 1rem;
+    }
+
+    .first_section .first_content .first_section_logos{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .first_section .first_content .first_section_logos .text h1{
+        font-size: 1rem;
+    }
+
+    .first_section .first_content .first_section_logos img{
+        height: 6rem;
+    }
+
+    .vdo_page{
+        width: 100%;
+        position: fixed;
+    }
+
+    .vdo_page .vdo{
+        transform: translateY(-50%);
+        width: 20rem;
+        height: 11.1rem;
+    }
+    .vdo_page .vdo video{
+        width: 100%;
+        height: 100%;
+    }
+
+    .second .second_content .left_content{
+        display: none;
+    }
+
+    .second{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .second .second_content .right_content{
+        width: 100%;
+    }
+
+    .second .second_content .right_content .tick_mark .tick_content p{
+        font-size: 0.8rem;
+    }
+    .second .second_content .right_content .tick_mark .tick_content .tick{
+        width: 3rem;
+    }
+
+    .third{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .third .third_content{
+        width: 100%;
+    }
+
+    .third .third_content .third_heading{
+        font-size: 1.3rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .third .third_content .heading_deatils{
+        width: 100%;
+        display: block;
+    }
+
+    .third .third_content .heading_deatils .ban .ban_icon{
+        display: flex;
+        justify-content: left;
+    }
+
+    .fourth{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .fourth .fourth_content p{
+        font-size: 1.2rem;
+    }
+
+    .fifth-img-desk{
+        display: none;
+    }
+
+    .fifth-img-phn{
+        display: flex;
+    }
+
+    .sixth{
+        padding: 1rem;
+    }
+
+    .sixth .sixth_content{
+        width: 100%;
+    }    
+
+    .seventh{
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .seventh .seventh_left{
+        width: 100%;
+    }
+
+    .seventh .seventh_left .btns .btn{
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+    .seventh .btns{
+        margin: 1rem 0;
+    }
+
+    .seventh .seventh_right{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    .seventh .seventh_right img{
+        height: 15rem;
+    }
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main .first_img{
+    padding-top: 5rem;
+    width: 100%;
+}
+
+main .first_img img{
+    width: 100%;
+    height: 100%;
+}
+
+main .first_img .mobile_img{
+    display: none;
+}
+
+.ziddi_first{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/ziddiImages/d_year_2012.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.ziddi_first .ziddi_first_content{
+    padding: 5rem 15rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.ziddi_first .ziddi_first_content h1{
+    font-weight: 900;
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #fff;
+}
+
+.ziddi_first .ziddi_first_content .revolution_cont{
+    margin-top: 3rem;
+    width: 20rem;
+}
+
+.ziddi_first .ziddi_first_content .revolution_cont .icon_details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.7rem;
+    margin-bottom: 2.3rem;
+}
+
+.ziddi_first .ziddi_first_content .revolution_cont .icon_details p{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.ziddi_first .ziddi_first_content a{
+    color: #ffbe00;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.ziddi_first .ziddi_first_content .revolution_cont .icon_details svg{
+    width: 4rem;
+    height: 4rem;
+}
+
+.ziddi_first .ziddi_first_content .revolution_cont .icon_details svg path{
+    fill: #ffbe00;
+}
+
+.ziddi_sec{
+    background-image: url('../images/ziddiImages/d_year_2013.jpg');
+    /* position: relative; */
+}
+
+/* .ziddi_sec::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #200505, transparent);
+    z-index: 1000;
+} */
+
+.ziddi_third{
+    background-image: url('../images/ziddiImages/ziddi_third_bg.jpg');
+}
+
+.ziddi_four{
+    background-image: url('../images/ziddiImages/d_year_2015.jpg');
+}
+
+.ziddi_fifth{
+    background-image: url('../images/ziddiImages/d_year_2016.jpg');
+}
+
+.ziddi_six{
+    background-image: url('../images/ziddiImages/d_year_2017.jpg');
+}
+.ziddi_seven{
+    background-image: url('../images/ziddiImages/d_year_2018.jpg');
+}
+.ziddi_eight{
+    background-image: url('../images/ziddiImages/d_year_2019.jpg');
+}
+.ziddi_nine{
+    background-image: url('../images/ziddiImages/d_year_2020.jpg');
+}
+.ziddi_ten{
+    background-image: url('../images/ziddiImages/d_year_2021.jpg');
+}
+.ziddi_eleven{
+    background-image: url('../images/ziddiImages/d_year_2022.jpg');
+}
+.ziddi_twoelve{
+    background-image: url('../images/ziddiImages/d_year_2023.jpg');
+}
+
+@media (max-width: 640px){
+    main .first_img{
+        padding: 0;
+        margin-top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main .first_img .destop_img{
+        display: none;
+    }
+
+    main .first_img .mobile_img{
+        display: flex;
+    }
+
+    .ziddi_first{
+        width: 100%;                
+    }
+
+    .ziddi_first .ziddi_first_content{
+        padding: 1rem;
+        display: grid;
+        place-items: center;
+    }
+
+    .ziddi_first .ziddi_first_content h1{
+        font-size: 1rem;
+    }
+
+    .ziddi_first .ziddi_first_content .revolution_cont{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+
+    .ziddi_first .ziddi_first_content .revolution_cont .icon_details{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+}

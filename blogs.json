@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "image": "images/neeraj.jpg",
+        "title": "Generalfitness",
+        "para": "Neeraj 'Ziddi' Chopra: Spirit of a Relentless Champion Scripting History"
+    },
+    {
+        "id": 2,
+        "image": "images/blogs/blog_img2.jpg",
+        "title": "Generalfitness",
+        "para": "All You Addicted To Stress ? All You Need To know About Cortisol"
+    },
+    {
+        "id": 3,
+        "image": "images/blogs/blog_img3.jpg",
+        "title": "Weightloss",
+        "para": "simple ways to reduce those flabby arms"
+    },
+    {
+        "id": 4,
+        "image": "images/blogs/blog_img4.jpg",
+        "title": "Bodybuilding",
+        "para": "protein absorption: nedds to pay attention"
+    },
+    {
+        "id": 5,
+        "image": "images/blogs/blog_img5.jpg",
+        "title": "Generalfitness",
+        "para": "10 best protein sources for vegitarians and vegans"
+    },
+    {
+        "id": 6,
+        "image": "images/blogs/blog_img6.jpg",
+        "title": "Generalfitness",
+        "para": "fitness training and fitness cheat sheet"
+    },
+    {
+        "id": 7,
+        "image": "images/blogs/blog_img7.jpg",
+        "title": "Generalfitness",
+        "para": "everything you need to know about the connection between fitness and sleep"
+    },
+    {
+        "id": 8,
+        "image": "images/blogs/blog_img8.jpg",
+        "title": "Generalfitness",
+        "para": "the leg and butt workout that works perfectly for your body"
+    },
+    {
+        "id": 9,
+        "image": "images/blogs/blog_img9.jpg",
+        "title": "Bodybuilding",
+        "para": "five proven benefits of branched-chained amino acid(BCAAs)"
+    },
+    {
+        "id": 10,
+        "image": "images/blogs/blog_img10.jpg",
+        "title": "Generalfitness",
+        "para": "post-workout recovery with vegan protein done right"
+    },
+    {
+        "id": 11,
+        "image": "images/blogs/blog_img11.jpg",
+        "title": "Bodybuilding",
+        "para": "5 foods for lean mass muscle building"
+    },
+    {
+        "id": 12,
+        "image": "images/blogs/blog_img12.jpg",
+        "title": "Bodybuilding",
+        "para": "best food for gaining lean muscle mass"
+    },
+    {
+        "id": 13,
+        "image": "images/blogs/blog_img13.jpg",
+        "title": "Generalfitness",
+        "para": "6 healthy ways to strengthen your immune system"
+    }
+]
